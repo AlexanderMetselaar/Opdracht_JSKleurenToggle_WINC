@@ -1,11 +1,15 @@
 function toggleNav() {
     let getSidebarUl = document.querySelector(".nav-sidebar ul");
-    
+
     if (getSidebarUl.style.visibility === "visible") {
         getSidebarUl.style.visibility = "hidden";
-    } else {getSidebarUl.style.visibility = "visible";
-    } 
-} 
+    } else {
+        getSidebarUl.style.visibility = "visible";
+    }
+}
+
+// Ik voeg hier alleen wat commentaar toe 
+// Github_test
 
 document.querySelector("#li-home").addEventListener("click", function () {
     document.body.style.backgroundColor = "#f1f1f1";
